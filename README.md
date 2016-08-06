@@ -24,9 +24,9 @@ bower install --save
 
 ## 2 Method
 
-Instalation manual method
+Instalation manual method:
 
-Insert between `<head></head>` code:
+Insert between `<head></head>` code
 
 ```
 <!-- Insert PureCSS -->
@@ -48,7 +48,7 @@ Insert in end document before tag `</body>`
 <script src="assets/functions.js"></script>
 ```
 
-It`s Works! Customize your theme in `assets/style.css` file.
+Its Works! Customize your theme in `assets/style.css` file.
 
 ## Using Packages and Read Documentation
 
