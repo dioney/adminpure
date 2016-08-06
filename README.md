@@ -10,19 +10,23 @@ Clone this repository or [Download Zip File](https://github.com/dioney/adminpure
 git clone https://github.com/dioney/adminpure
 ```
 
+## 1 Method: 
+
 Install NPM packages:
 ```
 npm install --save
 ```
-Option 1: Installation dependencies with bower (PureCSS, FontAwesome and ChartJS):
+Installation dependencies with bower (PureCSS, FontAwesome and ChartJS):
 
 ```
 bower install --save
 ```
 
-Option 2: Instalation manual method
+## 2 Method
 
-Insert between <head></head> code:
+Instalation manual method
+
+Insert between `<head></head>` code:
 
 ```
 <!-- Insert PureCSS -->
@@ -38,7 +42,7 @@ Insert between <head></head> code:
 <link rel="stylesheet" href="assets/style.css">
 ```
 
-Insert in end document before tag </body>
+Insert in end document before tag `</body>`
 ```
 <!-- Insert JavaScript manipulation, current use responsive utilities -->
 <script src="assets/functions.js"></script>
