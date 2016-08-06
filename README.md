@@ -17,9 +17,9 @@ bower install
 
 ## Using Packages
 
-- [PureCSS][http://purecss.io/]
-- [Font Awesome][http://fontawesome.io/]
-- [ChartJS][http://www.chartjs.org/]
+- [PureCSS](http://purecss.io/)
+- [Font Awesome](http://fontawesome.io/)
+- [ChartJS](http://www.chartjs.org/)
 
 # Working in progress
 
