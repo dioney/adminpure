@@ -24,7 +24,7 @@ bower install --save
 
 ## 2 Method
 
-Instalation manual method:
+Installation manual method:
 
 Insert between `<head></head>` code
 
