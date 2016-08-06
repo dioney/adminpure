@@ -1,6 +1,6 @@
 # AdminPure
 
-This is a admin panel based in PureCSS. Create your panel system independent language programming. Elegant and modern theme for your application. The main motivation to offer clean and beautful interface, free and open source use.
+This is a admin panel based in PureCSS. Create your panel system independent language programming. Elegant and modern theme for your application. The main motivation to offer clean and beautful interface, free and open source.
 
 # Installation
 
