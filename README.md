@@ -42,13 +42,13 @@ Insert between `<head></head>` code:
 <link rel="stylesheet" href="assets/style.css">
 ```
 
-Insert in end document before tag `</body>`
+Insert in end document before tag `</body>
 ```
 <!-- Insert JavaScript manipulation, current use responsive utilities -->
 <script src="assets/functions.js"></script>
 ```
 
-It`s Works! Customize your theme in assets/style.css file.
+It`s Works! Customize your theme in `assets/style.css` file.
 
 ## Using Packages and Read Documentation
 
