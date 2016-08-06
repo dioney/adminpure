@@ -1,0 +1,29 @@
+{
+  "name": "adminpure",
+  "version": "1.0.0",
+  "description": "Admin panel based in PureCSS",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dioney/adminpure.git"
+  },
+  "keywords": [
+    "purecss",
+    "admin",
+    "panel",
+    "simple"
+  ],
+  "author": "Dioney Vítor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dioney/adminpure/issues"
+  },
+  "homepage": "https://github.com/dioney/adminpure#readme"
+}
