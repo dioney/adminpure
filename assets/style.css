@@ -1,5 +1,6 @@
 body {
     color: #777;
+    font-weight: normal;
 }
 
 .pure-img-responsive {
@@ -86,6 +87,24 @@ The content `<div>` is where all your content goes.
         letter-spacing: 0.1em;
         font-size: .9em;
     }
+
+.breadcrumb{
+    margin-bottom: 2em;
+    display: table;
+}
+
+.breadcrumb a{
+    color: #999;
+    padding: 0 0.8em;
+    text-decoration: none;
+    font-size: .9em;
+    font-weight: normal;
+}
+
+.breadcrumb a:hover,
+.breadcrumb a:focus{
+    color: #2097e6;
+}
 
 .site-logo{
     color: #fff;
