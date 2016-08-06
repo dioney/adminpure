@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'npm:chart.js',
+1 verbose cli   '--save',
+1 verbose cli   '--allow-root' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /Users/dioneyvitor/Dropbox/Developer/adminpure/package.json
+5 verbose installManyTop reading scoped package data from /Users/dioneyvitor/Dropbox/Developer/adminpure/node_modules/chart.js/package.json
+6 verbose readDependencies loading dependencies from /Users/dioneyvitor/Dropbox/Developer/adminpure/package.json
+7 verbose stack Error: Unsupported URL Type: npm:chart.js
+7 verbose stack     at parseUrl (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
+7 verbose stack     at npa (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+7 verbose stack     at resolver (/usr/local/lib/node_modules/npm/lib/install.js:845:42)
+7 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+7 verbose stack     at Array.forEach (native)
+7 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+7 verbose stack     at Array.forEach (native)
+7 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+7 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:703:5
+7 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:325:20
+8 verbose cwd /Users/dioneyvitor/Dropbox/Developer/adminpure
+9 error Darwin 15.6.0
+10 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "npm:chart.js" "--save" "--allow-root"
+11 error node v4.4.7
+12 error npm  v2.15.8
+13 error Unsupported URL Type: npm:chart.js
+14 error If you need help, you may report this error at:
+14 error     <https://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]

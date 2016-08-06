@@ -2,9 +2,10 @@
 <html>
 <head>
 	<title>Admin PureCSS</title>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="bower_components/pure/pure-min.css">
-	<link rel="stylesheet" type="text/css" href="assets/side-menu.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script src="bower_components/chart.js/dist/Chart.min.js"></script>
 </head>
 <body>
 
@@ -18,6 +19,7 @@
 	<div id="menu">
 		<nav class="pure-menu">
 			<h1 class="site-logo">Admin<strong>Pure<strong></h1>
+			<div class="menu-item-divided"></div>
 			<h2 class="pure-menu-heading">Pedidos</h2>
 			<ul class="pure-menu-list">
 				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Relatórios</a></li>
@@ -36,24 +38,80 @@
 
 	<div id="main">
 		<div class="header">
-			<h1>Dashboard</h1>
+			<div class="pure-g">
+				<div class="pure-u-1-2"><h1>Dashboard</h1></div>
+				<div class="pure-u-1-2 text-right">
+					<section class="user-info">
+						<i class="fa fa-user"></i> <a href="#" rel="User">Dioney Vítor</a>
+						<span class="divider"></span>
+						<i class="fa fa-cog"></i> <a href="#" rel="User">Settings</a>
+					</section>
+				</div>
+			</div>	
+			
 		</div>
 
 		<div class="content">
-		<div class="pure-g">
-			<div class="pure-u-1-2">
-				<section class="b-grey">
+			<div class="breadcrumb">
+				<i class="fa fa-home"></i> <a href="#" rel="Dashboard">Dashboard</a><i class="fa fa-angle-right"></i>
+			</div>
+			<div class="pure-g">
+				<div class="pure-u-1-2 box">
+						<div class="header">
+							<h3 class="header-title">Sales</h3>
+						</div>
+						<div class="box-content">
+							<canvas id="myChart" width="400" height="400"></canvas>
+							<script>
+								var ctx = document.getElementById("myChart");
+								var myChart = new Chart(ctx, {
+								    type: 'bar',
+								    data: {
+								        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+								        datasets: [{
+								            label: '# of Votes',
+								            data: [12, 19, 3, 5, 2, 3],
+								            backgroundColor: [
+								                'rgba(255, 99, 132, 0.2)',
+								                'rgba(54, 162, 235, 0.2)',
+								                'rgba(255, 206, 86, 0.2)',
+								                'rgba(75, 192, 192, 0.2)',
+								                'rgba(153, 102, 255, 0.2)',
+								                'rgba(255, 159, 64, 0.2)'
+								            ],
+								            borderColor: [
+								                'rgba(255,99,132,1)',
+								                'rgba(54, 162, 235, 1)',
+								                'rgba(255, 206, 86, 1)',
+								                'rgba(75, 192, 192, 1)',
+								                'rgba(153, 102, 255, 1)',
+								                'rgba(255, 159, 64, 1)'
+								            ],
+								            borderWidth: 1
+								        }]
+								    },
+								    options: {
+								        scales: {
+								            yAxes: [{
+								                ticks: {
+								                    beginAtZero:true
+								                }
+								            }]
+								        }
+								    }
+								});
+							</script>
+						</div>
+				</div>
+				<div class="pure-u-1-2 box">
 					<div class="header">
-						<h3>Pedidos</h3>
+						<h3 class="header-title">Posts</h3>
 					</div>
-				</section>
+					<div class="box-content">
+						<p>as vendas estão ótimas</p>
+					</div>
+				</div>
 			</div>
-			<div class="pure-u-1-2">
-				<section class="b-grey">teste 1</section>
-			</div>
-		</div>
-			<h2 class="content-subhead">Hey there!</h2>
-			<p>Meu texto explicando sobre isso</p>
 		</div>
 	</div>
 

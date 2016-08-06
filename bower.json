@@ -21,6 +21,8 @@
     "tests"
   ],
   "dependencies": {
-    "pure": "^0.6.0"
+    "pure": "^0.6.0",
+    "font-awesome": "Font-Awesome#^4.6.3",
+    "chart.js": "npm:chart.js#^2.2.1"
   }
 }
