@@ -1,4 +1,4 @@
-# AdminPure
+# AdminPure - Alpha
 
 This is admin panel based in PureCSS.
 
@@ -17,6 +17,6 @@ bower install
 
 ```
 
-# Working
+# Working in progress
 
 This is a admin panel based in PureCSS. Create your system independent language programming. Elegant and modern theme for your application.
