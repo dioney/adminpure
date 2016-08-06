@@ -20,17 +20,16 @@
 		<nav class="pure-menu">
 			<h1 class="site-logo">Admin<strong>Pure<strong></h1>
 			<div class="menu-item-divided"></div>
-			<h2 class="pure-menu-heading">Pedidos</h2>
+			<h2 class="pure-menu-heading">Orders</h2>
 			<ul class="pure-menu-list">
-				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Relatórios</a></li>
-				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Novo Pedido</a></li>
-				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Clientes</a></li>
-				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Cadastrar</a></li>
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Reports</a></li>
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link">New Orders</a></li>
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Clients</a></li>
 			</ul>
-			<h2 class="pure-menu-heading">Configurações</h2>
+			<h2 class="pure-menu-heading">Settings</h2>
 			<ul class="pure-menu-list">
-				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Usuários</a></li>
-				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Perfil</a></li>
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Users</a></li>
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Profile</a></li>
 				<li class="pure-menu-item"><a href="#" class="pure-menu-link">Logout</a></li>
 			</ul>
 		</nav>
@@ -58,20 +57,22 @@
 			</div>
 			<div class="pure-g">
 				<div class="pure-u-1-2 box">
+					<div class="l-box">
+						<script src="forms.html"></script>
 						<div class="header">
 							<h3 class="header-title">Sales</h3>
 						</div>
 						<div class="box-content">
-							<canvas id="myChart" width="400" height="400"></canvas>
+							<canvas id="myChart" width="400" height="260"></canvas>
 							<script>
 								var ctx = document.getElementById("myChart");
 								var myChart = new Chart(ctx, {
-								    type: 'line',
+								    type: 'bar',
 								    data: {
 								        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
 								        datasets: [{
 								            label: '# of Votes',
-								            data: [12, 19, 3, 5, 2, 3],
+								            data: [12, 14, 8, 2, 5, 1],
 								            backgroundColor: [
 								                'rgba(255, 99, 132, 0.2)',
 								                'rgba(54, 162, 235, 0.2)',
@@ -103,29 +104,84 @@
 								});
 							</script>
 						</div>
+					</div>
 				</div>
 				<div class="pure-u-1-2 box">
-					<div class="header">
-						<h3 class="header-title">Posts</h3>
-					</div>
-					<div class="box-content">
-						<form class="pure-form pure-form-stacked">
-							<div class="pure-g">
-								<div class="pure-u-1-1">
-									<label for="title">Title</label>
-									<input id="title" type="text" class="pure-u-1-1">
+					<div class="l-box">
+						<div class="header">
+							<h3 class="header-title">Message</h3>
+						</div>
+						<div class="box-content">
+							<form class="pure-form pure-form-stacked">
+								<div class="pure-g">
+									<div class="pure-u-1-1">
+										<label for="title">Title</label>
+										<input id="title" type="text" class="pure-u-1-1">
 
-									<label for="post">Post Content</label>
-									<textarea id="post" rows="10" class="pure-u-1-1"></textarea>
+										<label for="post">Post Content</label>
+										<textarea id="post" rows="10" class="pure-u-1-1"></textarea>
 
-									<button class="pure-button pure-button-primary">Save</button>
-									<button class="pure-button">Save in Draft</button>
+										<hr>
+
+										<button class="pure-button pure-button-primary">Save</button>
+										<button class="pure-button">Save in Draft</button>
+									</div>
 								</div>
-							</div>
-						</form>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
+
+			<div class="pure-g">
+				<div class="pure-u-1-2 box">
+					<div class="l-box">
+						<div class="header">
+							<h3 class="header-title">Messages</h3>
+						</div>
+						<div class="box-content">
+							<span class="msg success"><i class="fa fa-check"></i>Message sending success!</span>
+							<span class="msg error"><i class="fa fa-ban"></i>Message NOT sending verify errors!</span>
+							<span class="msg alert"><i class="fa fa-exclamation-triangle"></i>Your permit geolocalization?</span>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1-2 box">
+					<div class="l-box">
+						<div class="header">
+							<h3 class="header-title">Lists Content</h3>
+						</div>
+						<div class="box-content">
+							<p>adfas</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pure-g">
+				<div class="pure-u-4-5">
+					<div class="l-box">
+						<div class="header">
+							<h3 class="header-title">Edit Item</h3>
+						</div>
+						<div class="box-content">
+							<p>Content</p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1-5">
+					<div class="l-box">
+						<div class="header">
+							<h3 class="header-title">Sidebar</h3>
+						</div>
+						<div class="box-content">
+							<p>Sidebar content</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
 		</div>
 	</div>
 
