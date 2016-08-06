@@ -12,9 +12,7 @@ git clone https://github.com/dioney/adminpure
 Install bower dependencies
 
 ```
-
 bower install
-
 ```
 
 # Working in progress
