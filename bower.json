@@ -1,0 +1,26 @@
+{
+  "name": "adminpure",
+  "authors": [
+    "Dioney Vitor <dioneyvitor@gmail.com>"
+  ],
+  "description": "Painel administrativo para ser utilizado em projetos open source ou comerciais",
+  "main": "index.html",
+  "keywords": [
+    "admin",
+    "pure",
+    "css",
+    "panel"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "^0.6.0"
+  }
+}
