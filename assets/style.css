@@ -1,6 +1,5 @@
 body {
     color: #777;
-    font-weight: normal;
 }
 
 .pure-img-responsive {
@@ -42,7 +41,6 @@ The content `<div>` is where all your content goes.
 .content {
     margin: 0 auto;
     padding: 2em;
-    max-width: 95%;
     margin-bottom: 50px;
     line-height: 1.6em;
     background: #f5f5f5;
@@ -139,6 +137,10 @@ The content `<div>` is where all your content goes.
 .divider{
     border-right: 1px solid #ddd;
     margin: 0 1em;
+}
+
+.pure-form{
+    font-weight: normal;
 }
 
 
